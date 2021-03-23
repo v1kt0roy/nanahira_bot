@@ -1,2 +1,2 @@
-# bot
+# 七平bot
 personalbot
