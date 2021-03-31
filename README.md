@@ -1,2 +1,3 @@
 # 七平bot
-personalbot
+##开发缘由
+    本bot
