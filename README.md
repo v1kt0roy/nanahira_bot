@@ -14,6 +14,7 @@
 ## 主要功能
 ### 通用功能
 >>* 本地图库调用
+>>* 匹配聊天内容发图
 >>* 求签
 >>* 浅草寺求签
 >>* 塔罗牌
@@ -37,6 +38,10 @@
 >>* 根目录下有一默认的setu文件夹，/color 调用里头的图片，内置了图片处理功能，可以绕开风控，谨慎使用
 >><div><img src="https://github.com/v1kt0roy/nanahira_bot/raw/main/image/exp1.png"  /></div>
 >><div><img src="https://github.com/v1kt0roy/nanahira_bot/raw/main/image/exp2.png"  /></div>
+#### 匹配聊天内容发图
+>>根目录下有message和message2两个文件夹，当有消息与message内的图片的文件名字完全匹配的时候，发送对应图片，当有消息内包含message2内图片对应文件名时，发送对应图片
+>>* 上为message内名字为？.jpg的文件，下为message2内名字为好耶.jpg的图片
+>><div><img src="https://github.com/v1kt0roy/nanahira_bot/raw/main/image/exp13.png"  /></div>
 #### 求签
 >>发送/求签+所求事项即可向机器人求签
 >>* 同一天在同一个群内如果求同一事项，结果不变
