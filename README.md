@@ -10,7 +10,7 @@
 >>需要java和python运行环境,并手动修改miraihttp的initialkey(realease内为Nanahirabot0831),在运行mirai后，运行bot.py
 >>* 查看bot所有指令的指令是/help
 >>* 本bot定制性较强,最好在完整阅读完readme后再使用。
->>* 本bot所有功能均面向群聊，且不会设计点赞 自动加好友 自动加群等敏感操作
+>>* 本bot所有功能均面向群聊，且不会涉及点赞 自动加好友 自动加群等敏感操作
 ## 主要功能
 ### 通用功能
 >>* 本地图库调用
