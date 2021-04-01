@@ -36,6 +36,7 @@
 >>* 支持jpg png gif
 >>* 使用/num+文件名即可返回image/文件名 目录下文件数目  
 >>* 根目录下有一默认的setu文件夹，/color 调用里头的图片，内置了图片处理功能，可以绕开风控，谨慎使用
+>>* /help会发送目前已有的图库名称
 >><div><img src="https://github.com/v1kt0roy/nanahira_bot/raw/main/image/exp1.png"  /></div>
 >><div><img src="https://github.com/v1kt0roy/nanahira_bot/raw/main/image/exp2.png"  /></div>
 #### 匹配聊天内容发图
@@ -60,6 +61,7 @@
 #### 闲聊
 >>采用了腾讯的[闲聊api](https://ai.qq.com/product/nlpchat.shtml)，如要使用该功能，请自行向腾讯申请接口并修改tencent_chat.py内的app_id和app_key
 >>调用方法有两种，群里聊天时机器人会有5%的概率回复或者直接发送/聊天+想和机器人聊天的内容来和机器人聊天
+>>/chat on /chat off可以用于开关概率回复而不影响其他功能的使用
 >><div><img src="https://github.com/v1kt0roy/nanahira_bot/raw/main/image/exp7.png"  /></div>
 #### 图片api
 >>/pic 从网络接口调用返回一张动漫图片
